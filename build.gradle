@@ -1,0 +1,13 @@
+plugins {
+    id 'application'
+}
+
+sourceSets {
+    main {
+         java {
+            srcDirs = ['src']
+         }
+    }
+}
+
+mainClassName = 'menu.MainMenu'
